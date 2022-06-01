@@ -30,9 +30,9 @@ i = 0
 keypressed = False
 
 ## To be worked on in the Beta channel. 
-#logname = datetime.datetime.now()
-#logname = datetime.datetime.now()
-#lgflname = str(logname.strftime("%d") + "-" + logname.strftime("%m") + "-" + logname.strftime("%Y") + "_CellLogFile_" + logname.strftime("%H") + ":" + logname.strftime("%M") + ":" + logname.strftime("%S") + ".log")
+logname = datetime.datetime.now()
+logname = datetime.datetime.now()
+lgflname = str(logname.strftime("%d") + "-" + logname.strftime("%m") + "-" + logname.strftime("%Y") + "_CellLogFile_" + logname.strftime("%H") + ":" + logname.strftime("%M") + ":" + logname.strftime("%S") + ".log")
 
 
 ## General Variable Establishment
@@ -40,10 +40,10 @@ index = 0
 cell_id = 0
 compl = False # Whether the program is complete running.
 
-dump = open("dump.log", "x")
+dump = open(lgflname, "x")
 dump.close()
 
-dump = open("dump.log", "a")
+dump = open(lgflname, "a")
 cell_types = ["photo", "respr"]
 
 ## ASCII Colour Codes
