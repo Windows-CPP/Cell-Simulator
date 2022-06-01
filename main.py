@@ -40,7 +40,8 @@ index = 0
 cell_id = 0
 compl = False # Whether the program is complete running.
 
-dump = open("dump.log", "x")
+dump = open("dump.log", "w")
+dump.write("")
 dump.close()
 
 dump = open("dump.log", "a")
