@@ -2,6 +2,8 @@
 # Essentially, takes the inputs, rates them with a score, then returns the most viable combination.
 # At one point, I will hopefully add complicated features, such as Sp02 and respiration values.
 
+## THIS VERSION OF CELLSIM WILL BE PHASED OUT ONCE V1.1 IS IN THE WORKS- REFERENCE FILE ONLY!!! ##
+
 # v1.0-PR-WNT
 # Program Version 1.0 | Production Release build WindowsNT
 
@@ -29,10 +31,10 @@ runtim = int(input("Enter a runtime in generations: "))
 i = 0
 keypressed = False
 
-## To be worked on in the Beta channel. 
-logname = datetime.datetime.now()
-logname = datetime.datetime.now()
-lgflname = str(logname.strftime("%d") + "-" + logname.strftime("%m") + "-" + logname.strftime("%Y") + "_CellLogFile_" + logname.strftime("%H") + ":" + logname.strftime("%M") + ":" + logname.strftime("%S") + ".log")
+## To be worked on in the Beta channel- Months later, scheiße still doesn't work rn 
+#logname = datetime.datetime.now()
+#logname = datetime.datetime.now()
+#lgflname = str(logname.strftime("%d") + "-" + logname.strftime("%m") + "-" + logname.strftime("%Y") + "_CellLogFile_" + logname.strftime("%H") + ":" + logname.strftime("%M") + ":" + logname.strftime("%S") + ".log")
 
 
 ## General Variable Establishment
